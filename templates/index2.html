@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul {
+            list-style-type: none;
+        }
+    </style>
+    <title>結果</title>
+</head>
+<body>
+    <center>
+        <p><font size="5">作成されたサブネット</font></p>
+
+        <ul>
+            {% for value in parameter %}
+                <li>{{ value }}</li>
+            {% endfor %}
+        </ul>
+    </center>
+
+    
+</body>
+</html>
